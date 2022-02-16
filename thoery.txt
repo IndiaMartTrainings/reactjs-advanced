@@ -127,7 +127,7 @@ constructor - A special function that will get called whenever
 
       Two Imporant things
       --------------------
-      1. We have to call special function 'super' , this will call the 
+      1. We have to call special function 'super' which will call the 
          base class constructor 
          In our component we have access to this.props only after 
          we initially called super passing the props 
@@ -163,7 +163,7 @@ props or state
 
 LifeCycle Methods 
 ------------------
--> static getDerivedStrateFromProps,
+-> static getDerivedStateFromProps,
 -> shouldComponentUpdate
 -> render,
 -> getSnapShotBeforeUpdate
