@@ -8,6 +8,13 @@ import Comments from "./11.api-calls/Comments";
 import Todo from "./11.api-calls/Todo";
 import User from "./11.api-calls/User";
 import UserApi from "./11.api-calls/UserApi";
+import UserMongoAPI from "./11.api-calls/UserMongoAPI";
+import UserSqlAPI from "./11.api-calls/UserSqlAPI";
+import Routing from "./12.routing/Routing";
+import ClassCounter from "./13.hooks/ClassCounter";
+import HookApi from "./13.hooks/HookApi";
+import HookCounter from "./13.hooks/HookCounter";
+import HookCounterObject from "./13.hooks/HookCounterObject";
 import Hello from "./2.jsx/Hello";
 import Greeting from "./3.props/Greeting";
 import GreetingOne from "./3.props/GreetingOne";
@@ -40,7 +47,14 @@ function App() {
   }
   return (
     <div>
-      <UserApi />
+      <HookApi />
+      {/* <HookCounterObject /> */}
+      {/* <HookCounter /> */}
+      {/* <ClassCounter /> */}
+      {/* <Routing /> */}
+      {/* <UserSqlAPI /> */}
+      {/* <UserMongoAPI /> */}
+      {/* <UserApi /> */}
       {/* <Comments /> */}
       {/* <User /> */}
       {/* <Todo /> */}

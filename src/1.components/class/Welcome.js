@@ -2,7 +2,7 @@ import React, {Component} from "react";
 
 class Welcome extends Component {
     render(){
-        return <h1>This is class component</h1>
+        return <div className="container"><h1>We hope you have a ncie day !!!</h1></div>
     }
 }
 
